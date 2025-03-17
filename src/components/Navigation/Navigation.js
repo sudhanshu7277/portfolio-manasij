@@ -38,10 +38,10 @@ const Navigation = () => {
         <h1>Manasi Jain</h1>
       </div>
       <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
-        <li><a className="navigation" onClick={() => handleNavigation('/')}>Home</a></li>
-        <li><a className="navigation" onClick={() => handleNavigation('/about')}>About</a></li>
-        <li><a className="navigation" onClick={() => handleNavigation('/services')}>Services</a></li>
-        <li><a className="navigation" onClick={() => handleNavigation('/contact')}>Contact</a></li>
+        <li><a href="#" className="navigation" onClick={() => handleNavigation('/')}>Home</a></li>
+        <li><a href="#" className="navigation" onClick={() => handleNavigation('/about')}>About</a></li>
+        <li><a href="#" className="navigation" onClick={() => handleNavigation('/services')}>Services</a></li>
+        <li><a href="#" className="navigation" onClick={() => handleNavigation('/contact')}>Contact</a></li>
       </ul>
       <div className="hamburger" onClick={toggleMenu}>
         <span className="bar"></span>
