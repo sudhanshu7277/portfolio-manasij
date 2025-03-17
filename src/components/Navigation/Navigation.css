@@ -12,6 +12,16 @@
 	outline: inherit;
 }
 
+.navigation:hover {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
 * {
     margin: 0;
     padding: 0;
